@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quizOn_html</title>
+    <link rel="icon" href="/photos/HTML5_badge.png">
+     <style>
+
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: moccasin;
+            background-image: -webkit-image-set();
+        }
+        header{
+            text-align: center;
+            padding: 2px;
+            background-color: rgb(196, 171, 127);
+        }
+        .login{
+            width: max-content;
+            margin-left: auto;
+            margin-right: auto;
+           
+
+        }.navitem{
+            display: inline;
+            padding: 200px;
+        }
+        .navitem a{
+            text-decoration: none;
+            color: rgb(230, 87, 11);
+            font-size: large;
+
+        }
+        .contact{
+            text-align: center;
+            padding: 2px;
+            background-color: rgb(196, 171, 127);
+
+        }
+        .button{
+            background-color: green;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: large;
+            padding:2px;
+        }
+        .footer{
+            padding:2px;
+            background-color: rgb(196, 171, 127);
+
+        }
+        
+
+     </style>
+</head>
+<body>
+    <img src="/photos/quiz-icon-simple-vector-98636126.webp" width="100"height="100">
+    <img src="/photos/quiz-icon-simple-vector-98636126.webp" width="100"height="100">
+
+    <header>
+        <h1>Welcome to the quizWorld of HTML</h1>
+        <h4>Here you can practice all mcq's based on html</h4>
+        <h5>  nothing will be achieved without doing practice</h5>
+      
+        <nav>
+          
+            <ul>  
+               
+               <li class="navitem"> <a href="#Intro-of-html">Intro of HTML</a></li>
+               <li class="navitem"><a href="#login-html">LOGIN</a></li>
+               <li class="navitem"><a href="#contact-us">contact us</a></li>
+
+               
+
+            </ul>
+        </nav>
+
+    </header>
+    <img src="/photos/hoelzerner-wuerfel-des-quiz-textes-auf-holztisch_42256-1270.avif" width="100%" height="500">
+    <section id="Intro-of-html">
+        <p>What is HTML?<br>
+           * HTML stands for Hyper Text Markup Language<br>
+           * HTML is the standard markup language for creating Web pages<br>
+           * HTML describes the structure of a Web page<br>
+           * HTML consists of a series of elements<br>
+           * HTML elements tell the browser how to display the content<br>
+           * HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</p>
+    </section><br><br>
+
+    <section id="login-html" class="login">
+        <h2>Please fill your details and <em>log-in</em></h2><br>
+        <form>
+            <label>First Name:</label>
+            <!--required is used as * which means compulsary to fill-->
+            <input type="text" placeholder="enter your first Name" required><br>
+            <label>second name:</label>
+            <input type="text" placeholder="enter your second Name"><br><br>
+    
+            <label>email:</label> <!--this checks "@"inside txt-->
+            <input type="email" placeholder="enter email id"><br><br>
+    
+            <label>enter password:</label>
+            <input type="password" placeholder="enter password"><br><br>
+            
+            <label>enter age:</label>  <!--for knowing age-->
+            <input type="number" placeholder="enter current age"><br><br>
+    
+    
+            <label for="dateDOB">enter DOB:</label>  <!--for knowing dob-->
+            <input type="date" id="dateDOB"><br><br>
+    
+            <label for="time">enter time of log-in:</label>  <!--for knowing time-->
+            <input type="time" id="time">
+    
+             <br><br> 
+             <label for="gender">select Gender</label>
+            <input type="radio" value="male" id="male" name="gender"> 
+            <!--it is used to collect a single value from the user  from aset of options-->    
+    
+    
+            <label for="male">Male</label>
+            <input type="radio" value="female" id="female" name="gender">
+            <label for="female">Female</label><br><br>
+             
+    
+            <!--select is used to collect avalue from alist-->
+            <label for="country">select country</label>
+            <select id="country">
+    
+                <option value="india">India</option>
+                <option value=""usa>usa</option>
+                <option value=""canada>canada</option>
+            </select><br><br>
+            <label>HTML KNOWLEDGE:</label>
+            <input type="range" id="range"><br>
+    
+            <textarea placeholder="explain yor interest in web devlopment" rows="5" cols="40"></textarea><br><br>
+    
+      
+            <input type="checkbox" id="terms"value="agree"> 
+            <!--used to collect the binary value from the user-->
+            <label for="terms">i agree to all terms and conditions apply</label><br><br>
+    
+    
+            <input type="submit" >     <input type="reset">  <br><br> 
+               <!--for reset all filledup-->
+            <button><a href="quiz_html.html" class="button">Start  <b>quiz!!</b></a></button>
+                 
+            <br> 
+         
+        </form>
+        <img src="photos/Quiz-1024x684.png" width="100%">
+    </section>
+     <section id="contact-us" class="contact">
+        <h1>Contact Us</h1>
+
+
+        
+            <p>you can contact us at company@ifficial.com or visit between us 9am - 6pm</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d870.1207186661283!2d77.28126449959072!3d28.56391363434077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce35999f60711%3A0x412cc63e04fb046f!2sFazalur%20Rahman%20Khan(FRK)%20Hostel!5e0!3m2!1sen!2sin!4v1721213626028!5m2!1sen!2sin" width="400"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+            
+    
+     </section>
+     <footer id="footer">
+
+        <p>company&copy; all right reserved</p><br>
+
+        <p>follow us ...</p>
+     </footer>
+
+    
+</body>
+</html>
